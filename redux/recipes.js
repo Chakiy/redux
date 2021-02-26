@@ -30,7 +30,7 @@ const recipeFetchSuccess = (recipes) => ({
 });
 
 export const getRecipes = (str) => async (dispatch, getState) => {
-  //movie saven en loading true
+  //recipes saven en loading true
   dispatch(recipeFetchStart(str));
 
   try {

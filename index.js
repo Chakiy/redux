@@ -31,7 +31,7 @@ document.getElementById("counterfield").oninput = (e) =>
   store.dispatch(setValue(parseInt(e.target.value)));
 
 /**
- * MOVIEZONE
+ * RECIPESZONE
  */
 
 document.getElementById("recipesform").onsubmit = (e) => {

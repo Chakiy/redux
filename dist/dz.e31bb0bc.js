@@ -2790,7 +2790,7 @@ const recipeFetchSuccess = recipes => ({
 });
 
 const getRecipes = str => async (dispatch, getState) => {
-  //movie saven en loading true
+  //recipes saven en loading true
   dispatch(recipeFetchStart(str));
 
   try {
@@ -2932,7 +2932,7 @@ document.getElementById("dec").onclick = () => _store.default.dispatch((0, _coun
 
 document.getElementById("counterfield").oninput = e => _store.default.dispatch((0, _counter.setValue)(parseInt(e.target.value)));
 /**
- * MOVIEZONE
+ * RECIPESZONE
  */
 
 
